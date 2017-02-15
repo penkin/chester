@@ -1,0 +1,37 @@
+@import "variables";
+
+.chess-board {
+	.row {
+		width: 100%;
+
+		.block {
+			float: left;
+			width: 12.5%;
+			height: 50px;
+		}
+
+		&:nth-child(odd) {
+			.block {
+				&:nth-child(odd) {
+					background: $board_dark;
+				}
+
+				&:nth-child(even) {
+					background: $board_light;
+				}
+			}
+		}
+
+		&:nth-child(even) {
+			.block {
+				&:nth-child(odd) {
+					background: $board_light;
+				}
+
+				&:nth-child(even) {
+					background: $board_dark;
+				}
+			}
+		}
+	}
+}

@@ -54,6 +54,6 @@ gulp.task('watch:resources', () => {
 /* =========== DEFAULTS ===========
 ==================================== */
 gulp.task('build', ['build:html', 'build:js', 'build:css', 'build:resources']);
-gulp.task('watch', ['watch:html', 'watch:js', 'watch:css', 'watch:images']);
+gulp.task('watch', ['watch:html', 'watch:js', 'watch:css', 'watch:resources']);
 
 gulp.task('default', ['build']);

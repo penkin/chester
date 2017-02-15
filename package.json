@@ -1,17 +1,14 @@
 {
-  "name": "electron-react-ts-boilerplate",
-  "version": "1.0.1",
-  "repository": "ibrahimduran/electron-react-ts-boilerplate",
-  "description": "Boilerplate for developing Electron apps using TypeScript2.0 and ReactJS.",
+  "name": "chester",
+  "version": "0.0.1",
+  "repository": "penkin/chester",
+  "description": "An open source, cross platform chess client.",
   "keywords": [
-    "electron",
-    "typescript",
-    "ts",
-    "react",
-    "reactjs"
+    "chess",
+    "game"
   ],
   "bugs": {
-    "url": "https://github.com/ibrahimduran/electron-react-ts-boilerplate/issues"
+    "url": "https://github.com/penkin/chester/issues"
   },
   "main": "dist/main.js",
   "scripts": {
@@ -41,6 +38,7 @@
     "electron": "^1.4.4",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "typescript": "^2.0.6"
+    "typescript": "^2.0.6",
+    "chess.js": "^0.10.2"
   }
 }

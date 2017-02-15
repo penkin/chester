@@ -4,9 +4,10 @@ let win;
 
 function createWindow() {
   win = new BrowserWindow({
-    width:800,
-    height: 600,
+    width: 400,
+    height: 422,
     autoHideMenuBar: true,
+		resizable: false
   });
 
   /**

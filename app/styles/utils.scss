@@ -1,0 +1,8 @@
+// Clear fix for floating children.
+.clearfix {
+		&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
