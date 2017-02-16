@@ -3,7 +3,7 @@
 An open source, cross platform chess client. This project was initialized using the great boilerplate at 
 https://github.com/ibrahimduran/electron-react-ts-boilerplate. Check it out.
 
-_Note:_ We make use of [Chess.js](https://github.com/jhlywa/chess.js).
+_Note:_ We make use of the great [Chess.js](https://github.com/jhlywa/chess.js) library.
 
 
 ## Maintainers
